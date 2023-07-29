@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#inicio">Oscar Gomez Rios</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Acerca de Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Experiencia</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/personal.jpg" alt="">
+            </div>
+            <h1>Oscar Gomez Rios</h1>
+            <h2>Ingeniero de Software</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/oscar.gomezrios.35/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/oscar-eduardo-g%C3%B3mez-r%C3%ADos-4b4a38281/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/OscarGomezR10"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Acerca de Mi</h2>
+            <p>Soy un ingeniero de software con determiacion que busca aprender dia a dia de las nuevas tecnologias para seguir progresando, mi objetivo es sacarle el maximo potencial a mis cualidades y ser de ayuda para el equipo de trabajo. 
+              Cuento con formación en ciencias de la computación y conocimiento en lenguajes de programación como Python y JavaScript, ademas de gestores de bases de datos como MySQL, PGAdmin.
+              Me gusta el desarrollo web y la ciberseguridad y espero aprender mas de cada tema.</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Informacion Personal</h3>
+                    <ul>
+                        <li>
+                            <strong>Celular:</strong>
+                            3203685170
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            oscaregomezr10@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección:</strong>
+                            Neiva, Huila, Colombia
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fas fa-user-secret"></i>
+                            <span>Cybersecurity</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-code"></i>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-sitemap"></i>
+                            <span>Backend</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-gears"></i>
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-cubes"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fas fa-diagram-project"></i>
+                            <span>AWS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+                <!-- Reemplaza 'ruta_del_archivo' con la URL de tu archivo -->
+                <div class="descargar">
+                    <!-- Reemplaza 'ruta_del_archivo' con la URL de tu archivo -->
+                    <a href="img/Profile.pdf" download>
+                      <button>Descargar CV</button>
+                    </a>
+                    <div class="overlay"></div>
+                </div>                  
+            </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="lenguajes">
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="javascript"></i>
+                  <span>JavaScript</span>
+                </div>
+              
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="python"></i>
+                  <span>Python</span>
+                </div>
+              
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="html"></i>
+                  <span>HTML</span>
+                </div>
+              
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="css"></i>
+                  <span>CSS</span>
+                </div>
+              
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="git"></i>
+                  <span>Git</span>
+                </div>
+              
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="github"></i>
+                  <span>GitHub</span>
+                </div>
+              
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="mysql"></i>
+                  <span>MySQL</span>
+                </div>
+              
+                <div class="lenguaje">
+                  <i class="icono-lenguaje" data-lenguaje="react"></i>
+                  <span>React</span>
+                </div>
+                <!-- Agrega más lenguajes si lo deseas -->
+              </div>                         
+            </div>
+        <script src="script.js"></script>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Experiencia</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Software</h4>
+                        <span class="casa">Universidad Surcolombiana</span>
+                        <span class="fecha">2018 - 2023</span>
+                        <p>En este programa entenderemos la Ingeniería del Software como la disciplina que integra los procesos, métodos y herramientas para obtener económicamente un software confiable que funcione de manera eficiente, incluyendo la documentación requerida para su diseño, desarrollo, operación y mantenimiento.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso Profesional de Git & GitHub</h4>
+                        <span class="casa">Platzi Certificate</span>
+                        <span class="fecha">2022</span>
+                        <div class="descargar">
+                            <!-- Reemplaza 'ruta_del_archivo' con la URL de tu archivo -->
+                            <a href="certificados/Github.pdf" download>
+                              <button>Descargar</button>
+                            </a>
+                            <div class="overlay"></div>
+                        </div> 
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>  
+                    </div>
+                    <div class="item izq">
+                      <h4>Scrum Fundamentals Certified (SFC)</h4>
+                      <span class="casa">SCRUMstudy Certificate</span>
+                      <span class="fecha">2021</span>
+                      <div class="descargar">
+                        <!-- Reemplaza 'ruta_del_archivo' con la URL de tu archivo -->
+                        <a href="certificados/Scrum.pdf" download>
+                          <button>Descargar</button>
+                        </a>
+                        <div class="overlay"></div>
+                    </div> 
+                      <div class="conectori">
+                          <div class="circuloi"></div>
+                      </div>  
+                  </div>
+                  <div class="item izq">
+                    <h4>How Google does Machine Learning en Español</h4>
+                    <span class="casa">Coursera Certificate</span>
+                    <span class="fecha">2021</span>
+                    <div class="descargar">
+                        <!-- Reemplaza 'ruta_del_archivo' con la URL de tu archivo -->
+                        <a href="certificados/Coursera.pdf" download>
+                          <button>Descargar</button>
+                        </a>
+                        <div class="overlay"></div>
+                    </div> 
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>  
+                </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Pasante - Apoyo a la gestión</h4>
+                        <span class="casa">Gobernacion del Huila</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Apoyar al sistema administrativo de planeación de la gobernación del Huila en la creación en ambiente local del esquema de base de datos en MYSQL del sistema de información SIR-SIGDEHU.
+                        Apoyar al sistema administrativo de planeación en la creación del diccionario de datos del sistema de información SIR.
+                        Ayudar en el diseño y estructuración de la base de datos del sistema SIGDEHU.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/oscar.gomezrios.35/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/oscar-eduardo-g%C3%B3mez-r%C3%ADos-4b4a38281/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/OscarGomezR10"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
