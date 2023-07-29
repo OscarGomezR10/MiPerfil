@@ -547,23 +547,23 @@ footer .arriba{
 
     /* Ajustar el tamaño de fuente y margen para el conector izquierdo */
     .curriculum .fila .item .conectori {
-        width: 30px;
+        width: 15px;
     }
 
     .curriculum .fila .item .conectori .circuloi {
-        height: 6px;
-        width: 6px;
+        height: 3px;
+        width: 3px;
         bottom: 2px;
     }
 
     /* Ajustar el tamaño de fuente y margen para el conector derecho */
     .curriculum .fila .item .conectord {
-        width: 30px;
+        width: 15px;
     }
 
     .curriculum .fila .item .conectord .circulod {
-        height: 6px;
-        width: 6px;
+        height: 3px;
+        width: 3px;
         bottom: 2px;
     }
 
