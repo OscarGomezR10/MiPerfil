@@ -493,20 +493,31 @@ footer .arriba{
         display: block;
     }
     .sobremi .fila .col {
-        width: fit-content;
+        width: 100%; /* Cambia el ancho de las columnas a ocupar todo el ancho disponible */
+        margin-bottom: 20px; /* Agrega un margen inferior para separar las columnas */
     }
 
     /* Nueva regla para ocultar el scroll horizontal */
     body {
         overflow-x: hidden;
     }
+
     .lenguajes .icono-lenguaje {
         font-size: 40px; /* Tamaño de icono ajustado para dispositivos móviles */
         margin-right: 0; /* Eliminar el margen entre los iconos */
+    }
 
-}
+    /* Ajustar el tamaño de fuente y margen para el contenido del currículum */
     .curriculum .contenido-seccion {
-        font-size: 10px; /* Tamaño de icono ajustado para dispositivos móviles */
-        margin-right: 0; /* Eliminar el margen entre los iconos */
+        font-size: 16px; /* Actualiza el tamaño de fuente para dispositivos móviles */
+        margin-right: 10px; /* Añade un margen derecho para separar los íconos */
+    }
+
+    /* Ajustar el ancho de las columnas del currículum */
+    .curriculum .fila .col {
+        width: 100%; /* Cambia el ancho de las columnas a ocupar todo el ancho disponible */
+        margin-bottom: 20px; /* Agrega un margen inferior para separar las columnas */
+        border: none; /* Elimina los bordes para que las columnas no tengan separación */
+        padding: 0; /* Elimina el relleno para que no haya espacio entre las columnas */
     }
 }
