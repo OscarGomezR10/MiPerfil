@@ -491,7 +491,7 @@ footer .arriba{
 }
 
 /* SECCION RESPONSIVE */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
     /* Resto de tu código CSS... */
     .sobremi .fila {
         display: block;
