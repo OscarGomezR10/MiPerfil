@@ -544,7 +544,7 @@ footer .arriba{
     .curriculum .fila .item .casa,
     .curriculum .fila .item .fecha,
     .curriculum .fila .item p {
-        font-size: 14px; /* Reducir el tamaño de fuente para dispositivos móviles */
+        font-size: 10px; /* Reducir el tamaño de fuente para dispositivos móviles */
         margin-bottom: 10px;
     }
 
