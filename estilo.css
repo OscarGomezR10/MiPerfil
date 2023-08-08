@@ -470,7 +470,7 @@ footer .arriba{
     nav.responsive{
         display: block;
         position: absolute;
-        right: 0;
+        left: 0;
         top: 75px;
         background-color: #252A2E;
         width: 180px;
@@ -513,7 +513,7 @@ footer .arriba{
 
     /* Ajustar el tamaño de fuente y margen para el contenido del currículum */
     .curriculum .contenido-seccion {
-        font-size: 16px;
+        font-size: 10px;
         margin-right: 0; /* Eliminar el margen derecho para que ocupe todo el ancho */
     }
 
