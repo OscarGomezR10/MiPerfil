@@ -459,7 +459,7 @@ footer .arriba{
     font-size: 18px;
 }
 /* SECCION RESPONSIVE */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
     /* Resto de tu código CSS... */
     nav{
         display: none;
