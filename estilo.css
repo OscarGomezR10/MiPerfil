@@ -192,7 +192,7 @@ html{
   margin: 20px 10px 20px 0;
   padding: 10px 22px;
   font-size: 16px;
-  color: #1c2022;
+  color: #1e2326;
   position: relative;
   z-index: 1;
   text-decoration: none;
@@ -459,7 +459,7 @@ footer .arriba{
     font-size: 18px;
 }
 /* SECCION RESPONSIVE */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
     /* Resto de tu código CSS... */
     nav{
         display: none;
