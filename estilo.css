@@ -515,37 +515,33 @@ footer .arriba{
     .curriculum .contenido-seccion {
         font-size: 10px;
         margin-right: 0; /* Eliminar el margen derecho para que ocupe todo el ancho */
-        margin-left: 0;
     }
 
     /* Ajustar el ancho de las columnas del currículum */
-    .curriculum .fila .col {
-        width: 100%;
-        margin-bottom: 16px;
-        border: none;
-        padding: 0;
+    /* Cambiar el flujo de las columnas en la fila a vertical */
+    .curriculum .fila {
+        display: flex;
+        flex-direction: column;
     }
 
     /* Ajustar el ancho de las secciones y elementos internos */
     .curriculum .fila .izquierda,
     .curriculum .fila .derecha {
-        width: 80%;
+        width: 100%;
         border: none;
         padding: 0;
     }
 
-    .curriculum .fila .item {
-        width: 100%;
-        padding: 20px;
-        margin-bottom: 30px;
+    .curriculum .fila .izquierda .contenido-seccion {
+        font-size: 10px;
+        margin-right: 0;
     }
 
-    /* Ajustar el tamaño de fuente y margen para los íconos y el contenido del currículum */
     .curriculum .fila .item h4,
     .curriculum .fila .item .casa,
     .curriculum .fila .item .fecha,
     .curriculum .fila .item p {
-        font-size: 10px; /* Reducir el tamaño de fuente para dispositivos móviles */
+        font-size: 10px;
         margin-bottom: 10px;
     }
 
