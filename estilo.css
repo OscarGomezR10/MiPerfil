@@ -520,7 +520,7 @@ footer .arriba{
     /* Ajustar el ancho de las columnas del currículum */
     .curriculum .fila .col {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
         border: none;
         padding: 0;
     }
@@ -550,7 +550,7 @@ footer .arriba{
 
     /* Ajustar el tamaño de fuente y margen para el conector izquierdo */
     .curriculum .fila .item .conectori {
-        width: 15px;
+        width: 10px;
     }
 
     .curriculum .fila .item .conectori .circuloi {
@@ -561,7 +561,7 @@ footer .arriba{
 
     /* Ajustar el tamaño de fuente y margen para el conector derecho */
     .curriculum .fila .item .conectord {
-        width: 15px;
+        width: 10px;
     }
 
     .curriculum .fila .item .conectord .circulod {
