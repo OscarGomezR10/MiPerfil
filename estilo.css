@@ -192,11 +192,14 @@ html{
   margin: 20px 10px 20px 0;
   padding: 10px 22px;
   font-size: 16px;
-  color: #ffffff;
+  color: #9e2323;
   position: relative;
   z-index: 1;
   text-decoration: none;
   overflow: hidden; /* Esto es importante para ocultar el overlay fuera del botón */
+  outline: none;
+  -webkit-font-smoothing: antialiased; /* Ajusta la suavidad de las fuentes para navegadores webkit (Safari, Chrome) */
+  -moz-osx-font-smoothing: grayscale; /* Ajusta la suavidad de las fuentes para navegadores basados en Gecko (Firefox) */
 }
 .descargar .overlay {
   position: absolute;
