@@ -461,46 +461,68 @@ footer .arriba{
 /* SECCION RESPONSIVE */
 @media screen and (max-width: 700px) {
     /* Resto de tu código CSS... */
-    /* Ajustar el ancho y los márgenes de la barra de navegación */
-    nav {
-        width: 100%;
-        margin: 0; /* Eliminar márgenes para que ocupe todo el ancho */
+    nav{
+        display: none;
     }
-
-    .nav-responsive {
+    .nav-responsive{
         display: block;
-        margin: 0; /* Eliminar márgenes para que ocupe todo el ancho */
     }
-
-    /* Ajustar el ancho y los márgenes de los elementos de la barra de navegación */
-    nav.responsive ul li {
-        width: 100%;
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
         border-bottom: 1px solid #fff;
         padding: 10px 0;
     }
-    /* Ajustar el ancho y los márgenes de las secciones para ocupar todo el ancho de la pantalla */
-    .sobremi .fila,
-    .lenguajes .fila,
-    .curriculum .fila {
+
+    
+    /* Nueva regla para ocultar el scroll horizontal */
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* SECCION RESPONSIVE */
+@media screen and (max-width: 700px) {
+    /* Resto de tu código CSS... */
+    .sobremi .fila {
         display: block;
-        margin-right: 0;
-        margin-left: 0;
+    }
+    .sobremi .fila .col {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
-    /* Ajustar el ancho y los márgenes de las columnas de cada sección */
-    .sobremi .col,
-    .lenguajes .col,
-    .curriculum .col {
-        width: 100%;
+    /* Nueva regla para ocultar el scroll horizontal */
+    body {
+        overflow-x: hidden;
+    }
+
+    .lenguajes .icono-lenguaje {
+        font-size: 40px;
         margin-right: 0;
-        margin-bottom: 20px;
-        padding: 0;
     }
 
     /* Ajustar el tamaño de fuente y margen para el contenido del currículum */
     .curriculum .contenido-seccion {
         font-size: 16px;
         margin-right: 0; /* Eliminar el margen derecho para que ocupe todo el ancho */
+    }
+
+    /* Ajustar el ancho de las columnas del currículum */
+    .curriculum .fila .col {
+        width: 100%;
+        margin-bottom: 20px;
+        border: none;
+        padding: 0;
     }
 
     /* Ajustar el ancho de las secciones y elementos internos */
