@@ -484,9 +484,86 @@ footer .arriba{
     }
 
     
+    .sobremi .fila {
+        display: block;
+    }
+    .sobremi .fila .col {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
     /* Nueva regla para ocultar el scroll horizontal */
     body {
         overflow-x: hidden;
+    }
+
+    .lenguajes .icono-lenguaje {
+        font-size: 40px;
+        margin-right: 0;
+    }
+
+    /* Ajustar el tamaño de fuente y margen para el contenido del currículum */
+    .curriculum .contenido-seccion {
+        font-size: 16px;
+        margin-right: 0; /* Eliminar el margen derecho para que ocupe todo el ancho */
+    }
+
+    /* Ajustar el ancho de las columnas del currículum */
+    .curriculum .fila .col {
+        width: 100%;
+        margin-bottom: 20px;
+        border: none;
+        padding: 0;
+    }
+
+    /* Ajustar el ancho de las secciones y elementos internos */
+    .curriculum .fila .izquierda,
+    .curriculum .fila .derecha {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .curriculum .fila .item {
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* Ajustar el tamaño de fuente y margen para los íconos y el contenido del currículum */
+    .curriculum .fila .item h4,
+    .curriculum .fila .item .casa,
+    .curriculum .fila .item .fecha,
+    .curriculum .fila .item p {
+        font-size: 14px; /* Reducir el tamaño de fuente para dispositivos móviles */
+        margin-bottom: 10px;
+    }
+
+    /* Ajustar el tamaño de fuente y margen para el conector izquierdo */
+    .curriculum .fila .item .conectori {
+        width: 15px;
+    }
+
+    .curriculum .fila .item .conectori .circuloi {
+        height: 3px;
+        width: 3px;
+        bottom: 2px;
+    }
+
+    /* Ajustar el tamaño de fuente y margen para el conector derecho */
+    .curriculum .fila .item .conectord {
+        width: 15px;
+    }
+
+    .curriculum .fila .item .conectord .circulod {
+        height: 3px;
+        width: 3px;
+        bottom: 2px;
+    }
+
+    footer {
+        /* Ajustar el padding inferior del footer para evitar solapamientos */
+        padding: 25px 0 100px 0;
     }
 }
 
